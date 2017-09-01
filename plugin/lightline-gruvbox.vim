@@ -26,8 +26,8 @@ if s:is_dark
 	let s:mono1   = '#3c3836'
 	let s:mono2   = '#504945'
 	let s:mono3   = '#665c54'
-	let s:mono4   = '#b2a89d'
-	let s:mono5   = '#c8c1b9'
+	let s:mono4   = '#7c6f64'
+	let s:mono5   = '#928374'
 	let s:c_mono1 = 237
 	let s:c_mono2 = 239
 	let s:c_mono3 = 241
@@ -101,14 +101,14 @@ else
 				\ [s:mono4, s:mono1, s:c_mono4, s:c_mono1]]
 	let s:p.normal.left = [
 				\ [s:mono0, s:green, s:c_mono0, s:c_green],
-				\ [s:mono5, s:mono3, s:c_mono5, s:c_mono3]]
+				\ [s:mono5, s:mono2, s:c_mono5, s:c_mono3]]
 	let s:p.normal.right = [
 				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4],
 				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4]]
 endif
 
 let s:p.inactive.middle = [
-			\ [s:mono4, s:mono2, s:c_mono4, s:c_mono2]]
+			\ [s:mono5, s:mono2, s:c_mono4, s:c_mono2]]
 let s:p.inactive.right = [
 			\ s:p.inactive.middle[0],
 			\ s:p.inactive.middle[0]]
